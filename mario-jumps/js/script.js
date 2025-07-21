@@ -16,7 +16,7 @@ document.addEventListener("keydown", function () {
     pipe.style = ``;
     cloud.style = ``;
     mario.style = ``;
-    mario.src = "./imagens/mario-running.gif";
+    mario.src = "./images/mario-running.gif";
     mario.style.width = "150px";
     key.style.display = 'none';
 
@@ -38,7 +38,7 @@ document.addEventListener("keydown", function () {
             mario.style.animation = 'none';
             mario.style.bottom = `${marioPosition}px`;
 
-            mario.src = "./imagens/game-over.png";
+            mario.src = "./images/game-over.png";
             mario.style.width = "75px";
             mario.style.marginLeft = "50px";
 
@@ -51,12 +51,12 @@ document.addEventListener("keydown", function () {
         }
         else if (pipePosition <= 121 && marioPosition > 80)
         {
-            mario.src = "./imagens/mario-catching-mushroom.gif";
+            mario.src = "./images/mario-catching-mushroom.gif";
             mario.style.width = "130px";
         }
         else
         {
-            mario.src = "./imagens/mario-running.gif";
+            mario.src = "./images/mario-running.gif";
             mario.style.width = "150px";
         }
     }, 10);
